@@ -33,7 +33,7 @@
 (SETRECTA)
          @16400
          D=A
-         @coord
+         @draw
          M=D
 
          @256
@@ -51,7 +51,7 @@
 (SETCL)
          @16384
          D=A 
-         @startdraw
+         @draw
          M=D
          @8192
          D=A 
@@ -65,7 +65,7 @@
          0;JMP
 
 (RECTA)
-         @coord
+         @draw
          D=M
          @pscreen
          M=D
@@ -96,7 +96,7 @@
 (HORIZONTAL)
          @20480
          D=A 
-         @coord
+         @draw
          M=D 
 
          @32
@@ -110,7 +110,7 @@
          0;JMP 
 
 (RECTA2)
-         @coord
+         @draw
          D=M 
          @pscreen
          M=D
@@ -141,7 +141,7 @@
          0;JMP
 
 (RECTA3)
-        @coord 
+        @draw
         D=M
         @pscreen
         M=D 
