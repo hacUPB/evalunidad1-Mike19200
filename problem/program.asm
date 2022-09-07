@@ -4,8 +4,10 @@
 (INICIO)
          @KBD
          D=M
+         @256
+         D=A 
          @color
-         M=1     //COLOR NEGRO
+         M=D    //COLOR NEGRO
          @84
          D=D-A
          @SETRECTA
@@ -14,7 +16,7 @@
          @KBD
          D=M
          @color  //COLOR BLANCO
-         M=O
+         M=0
          @67
          D=D-A 
          @SETCL
